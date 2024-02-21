@@ -4,7 +4,9 @@ Hi there! This is the repo where all members will share important knowledge they
 # Table of Content
 - [So...How Does Blockchain Work?](#sohow-does-blockchain-work-)
   - [Cryptography (or usually called Hashing)](#cryptography-or-usually-called-hashing)
-  - [Blocks?](#blocks)
+  - [Blocks and Mining?](#blocks-and-mining)
+    - [Blocks](#blocks)
+    - [Mining](#mining)
 
 # So...How Does Blockchain Work?
 Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56 
@@ -18,10 +20,14 @@ Hashing means: given any input, the hashing program will do some _magic_ and pro
   2. **Fixed Length**: Like the "Arizona" example above, although the input length can vary, they will always result in a 4-digit length hash.
   3. **Irreversible**: Let's use the "Arizona" example. When given "bbbb", there is _technically_ no algorithm that can reverse that back to "Arizona". In other words, there is no way to convert a hashed text to human-readable text.
 
-## Blocks?
+## Blocks and Mining?
+### Blocks
 A Block has:
   1. Block number
   2. Nonce
   3. Data
 
-All of which will be **combined** and then **hashed** to produce an output
+All of which will be **Combined** and then **Hashed** to produce an output
+
+### Mining
+The mine algorithm will bruteforce the **Nonce** until the hashed output starts with four 0s (0000...)
