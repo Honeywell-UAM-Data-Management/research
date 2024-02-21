@@ -2,8 +2,13 @@
 
 This is the repo where all members will share important knowledge for the project
 
-## So...How Does Blockchain Work? (Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56) (Website https://andersbrownworth.com/blockchain/)
-### Cryptography (or usually called Hashing)
+# Table of Content
+
+- [So...How Does Blockchain Work?](#So...How Does Blockchain Work?)
+  - [Cryptography (or usually called Hashing)](#Cryptography (or usually called Hashing))
+
+# So...How Does Blockchain Work? (Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56) (Website https://andersbrownworth.com/blockchain/)
+## Cryptography (or usually called Hashing)
 ASU course that teaches this concept: CSE 365
 
 Hashing means: given any input, the hashing program will do some _magic_ and produce an output that is:
