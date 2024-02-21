@@ -9,12 +9,13 @@ Hi there! This is the repo where all members will share important knowledge they
     - [Blocks](#blocks)
     - [Mining](#mining)
   - [BlockCHAIN](#blockchain)
+  - [Distributed Blockchain](#distributed-blockchain)
 
 # What is Blockchain?
 Imagine a blockchain as a digital ledger or record book with these features:
-  - Decentralization: This notebook isn't owned by one person or organization. Instead, it's spread out across many computers, called nodes, all around the world. Each node has its own copy of the blockchain.
-  - Consensus: To add a new block to the chain, most of the nodes in the network must agree that it's valid. This agreement process is called "consensus." It helps ensure that all the copies of the blockchain are the same and that no one can cheat the system.
-  - Immutability: Once something is written in the blockchain, it's really hard to change. This is because altering one block would require changing all the blocks after it, across all the copies of the blockchain on all the nodes. So, the blockchain is considered immutable.
+  - **Decentralization**: This notebook isn't owned by one person or organization. Instead, it's spread out across many computers, called nodes, all around the world. Each node has its own copy of the blockchain.
+  - **Consensus**: To add a new block to the chain, most of the nodes in the network must agree that it's valid. This agreement process is called "consensus." It helps ensure that all the copies of the blockchain are the same and that no one can cheat the system.
+  - **Immutability**: Once something is written in the blockchain, it's really hard to change. This is because altering one block would require changing all the blocks after it, across all the copies of the blockchain on all the nodes. So, the blockchain is considered immutable.
 
 # So...How Does Blockchain Work?
 Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56 
@@ -38,7 +39,7 @@ A Block has:
 All of which will be **Combined** and then **Hashed** to produce an output
 
 ### Mining
-The mining algorithm will differ based on the type of blockchain system that you are using. However, the concept is that the algorithm will bruteforce the **Nonce** until we reach a desired result in the Hash Output
+The mining algorithm will differ based on the type of blockchain system that you are using. However, the concept is that the algorithm will try to find the **Nonce** until we reach a desired result in the Hash Output
 
 In the video example, the mining algorithm will bruteforce the Nonce until the hashed output starts with four 0s (0000...)
 
@@ -47,7 +48,9 @@ In the video example, the mining algorithm will bruteforce the Nonce until the h
 
 ## BlockCHAIN!
 Remember we have 3 elements in a block? Now, we add the 4th element, which is **Prev**.
+
 Prev refers to the hashed output of its _previous_ block in the blockchain. 
+
 The first block in the blockchain will have Prev set to 00000...
 
 ### This is why Blockchain is Immutable!!!
@@ -55,3 +58,11 @@ Say if you change the data in block 2, the hash in block 2 changes
   - Which makes the Prev in block 3 wrong and requires re-mining
   - Which makes the Prev in block 4 wrong and requires re-mining
   - And so on...
+
+## Distributed Blockchain
+
+### Decentralization and Consensus of a blockchain. 
+
+In a blockchain network, there are multiple peers with the exact same copy of the blockchain. If a peer decides to change a block, all of the other peers need to agree on that change and change their blocks accordingly. This is called **Consensus**. 
+
+Also, if there is a mismatch in the blockchain among the peers, the majority wins! Therefore, no peer owns the blockchain network. Everything here is **Decentralized**
