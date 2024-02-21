@@ -7,6 +7,7 @@ Hi there! This is the repo where all members will share important knowledge they
   - [Blocks and Mining?](#blocks-and-mining)
     - [Blocks](#blocks)
     - [Mining](#mining)
+  - [BlockCHAIN](#blockchain)
 
 # So...How Does Blockchain Work?
 Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56 
@@ -37,4 +38,13 @@ In the video example, the mining algorithm will bruteforce the Nonce until the h
 ![image](https://github.com/Honeywell-UAM-Data-Management/research/assets/67848975/b43c7cfa-2211-4fcf-a3da-a4048ad7fe59)
 ![image](https://github.com/Honeywell-UAM-Data-Management/research/assets/67848975/2e1f69c6-8fca-4d47-9b31-9fe59690bb37)
 
+## BlockCHAIN!
+Remember we have 3 elements in a block? Now, we add the 4th element, which is **Prev**.
+Prev refers to the hashed output of its _previous_ block in the blockchain. 
+The first block in the blockchain will have Prev set to 00000...
 
+### This is why Blockchain is Immutable!!!
+Say if you change the data in block 2, the hash in block 2 changes
+  Which makes the Prev in block 3 wrong and requires re-mining
+  Which makes The Prev in block 4 wrong and requires re-mining
+  And so on...
