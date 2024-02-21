@@ -11,7 +11,7 @@ Hi there! This is the repo where all members will share important knowledge they
   - [BlockCHAIN](#blockchain)
 
 # What is Blockchain?
-Imagine a blockchain as a digital ledger or record book with these nature:
+Imagine a blockchain as a digital ledger or record book with these features:
   - Decentralization: This notebook isn't owned by one person or organization. Instead, it's spread out across many computers, called nodes, all around the world. Each node has its own copy of the blockchain.
   - Consensus: To add a new block to the chain, most of the nodes in the network must agree that it's valid. This agreement process is called "consensus." It helps ensure that all the copies of the blockchain are the same and that no one can cheat the system.
   - Immutability: Once something is written in the blockchain, it's really hard to change. This is because altering one block would require changing all the blocks after it, across all the copies of the blockchain on all the nodes. So, the blockchain is considered immutable.
