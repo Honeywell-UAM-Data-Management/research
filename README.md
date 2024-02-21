@@ -10,6 +10,7 @@ Hi there! This is the repo where all members will share important knowledge they
     - [Mining](#mining)
   - [BlockCHAIN](#blockchain)
   - [Distributed Blockchain](#distributed-blockchain)
+  - [Let's make it even more secure: Signature]()
 
 # What is Blockchain?
 Imagine a blockchain as a digital ledger or record book with these features:
@@ -67,3 +68,15 @@ Say if you change the data in block 2, the hash in block 2 changes
 In a blockchain network, there are multiple peers with the exact same copy of the blockchain. If a peer decides to change a block, all of the other peers need to agree on that change and change their blocks accordingly. This is called **Consensus**. 
 
 Also, if there is a mismatch in the blockchain among the peers, the majority wins! Therefore, no peer owns the blockchain network. Everything here is **Decentralized**
+
+## Let's make it even more secure: Signature
+
+Say we have a blockchain network that stores the transaction history, how can we make sure that Jane actually sent John $25? What stops Jane from faking it and telling the other peers to update their blockchain?
+
+This is where **signature** comes into place. Alex will be the one who "sign" this transaction for us. Here's how it works:
+  1. Alex has a Private key (which he keeps it for himself) and Public key (which everyone gets access to)
+  2. Alex hashes the transaction with his Private key and produces an output, say "xyz1"
+  3. Anyone can just use Alex's Public key and input "xyz1" with Jane's transaction. This Public key will help people figure out if Alex actually signed this.
+
+Jane cannot fake this transaction since only Alex has his Private key
+
