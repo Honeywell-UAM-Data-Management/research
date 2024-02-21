@@ -2,12 +2,19 @@
 Hi there! This is the repo where all members will share important knowledge they found for the project
 
 # Table of Content
+-[What is Blockchain?](#what-is-blockchain)
 - [So...How Does Blockchain Work?](#sohow-does-blockchain-work-)
   - [Cryptography (or usually called Hashing)](#cryptography-or-usually-called-hashing)
   - [Blocks and Mining?](#blocks-and-mining)
     - [Blocks](#blocks)
     - [Mining](#mining)
   - [BlockCHAIN](#blockchain)
+
+# What is Blockchain?
+Imagine a blockchain as a digital ledger or record book with these nature:
+  - Decentralization: This notebook isn't owned by one person or organization. Instead, it's spread out across many computers, called nodes, all around the world. Each node has its own copy of the blockchain.
+  - Consensus: To add a new block to the chain, most of the nodes in the network must agree that it's valid. This agreement process is called "consensus." It helps ensure that all the copies of the blockchain are the same and that no one can cheat the system.
+  - Immutability: Once something is written in the blockchain, it's really hard to change. This is because altering one block would require changing all the blocks after it, across all the copies of the blockchain on all the nodes. So, the blockchain is considered immutable.
 
 # So...How Does Blockchain Work?
 Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56 
@@ -45,6 +52,6 @@ The first block in the blockchain will have Prev set to 00000...
 
 ### This is why Blockchain is Immutable!!!
 Say if you change the data in block 2, the hash in block 2 changes
-  Which makes the Prev in block 3 wrong and requires re-mining
-  Which makes The Prev in block 4 wrong and requires re-mining
-  And so on...
+  - Which makes the Prev in block 3 wrong and requires re-mining
+  - Which makes the Prev in block 4 wrong and requires re-mining
+  - And so on...
