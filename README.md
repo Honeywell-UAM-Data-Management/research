@@ -2,7 +2,7 @@
 Hi there! This is the repo where all members will share important knowledge they found for the project
 
 # Table of Content
--[What is Blockchain?](#what-is-blockchain)
+- [What is Blockchain?](#what-is-blockchain)
 - [So...How Does Blockchain Work?](#sohow-does-blockchain-work-)
   - [Cryptography (or usually called Hashing)](#cryptography-or-usually-called-hashing)
   - [Blocks and Mining?](#blocks-and-mining)
