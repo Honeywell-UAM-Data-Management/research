@@ -30,4 +30,7 @@ A Block has:
 All of which will be **Combined** and then **Hashed** to produce an output
 
 ### Mining
-The mine algorithm will bruteforce the **Nonce** until the hashed output starts with four 0s (0000...)
+The mining algorithm will differ based on the type of blockchain system that you are using. However, the concept is that the algorithm will bruteforce the **Nonce** until we reach a desired result in the Hash Output
+
+In the video example, the mining algorithm will bruteforce the Nonce until the hashed output starts with four 0s (0000...)
+
