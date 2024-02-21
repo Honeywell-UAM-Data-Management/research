@@ -19,6 +19,7 @@ Imagine a blockchain as a digital ledger or record book with these features:
 
 # So...How Does Blockchain Work?
 Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56 
+
 Website https://andersbrownworth.com/blockchain/
 
 ## Cryptography (or usually called Hashing)
