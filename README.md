@@ -10,7 +10,7 @@ Hi there! This is the repo where all members will share important knowledge they
     - [Mining](#mining)
   - [BlockCHAIN](#blockchain)
   - [Distributed Blockchain](#distributed-blockchain)
-  - [Let's make it even more secure: Signature]()
+  - [Let's make it even more secure: Signature](#lets-make-it-even-more-secure-signature)
 
 # What is Blockchain?
 Imagine a blockchain as a digital ledger or record book with these features:
@@ -24,6 +24,8 @@ Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56
 Website https://andersbrownworth.com/blockchain/
 
 ## Cryptography (or usually called Hashing)
+https://andersbrownworth.com/blockchain/hash
+
 ASU course that teaches this concept: CSE 365
 
 Hashing means: given any input, the hashing program will do some _magic_ and produce an output that is:
@@ -33,6 +35,8 @@ Hashing means: given any input, the hashing program will do some _magic_ and pro
 
 ## Blocks and Mining?
 ### Blocks
+https://andersbrownworth.com/blockchain/block
+
 A Block has:
   1. Block number
   2. Nonce
@@ -49,6 +53,8 @@ In the video example, the mining algorithm will bruteforce the Nonce until the h
 ![image](https://github.com/Honeywell-UAM-Data-Management/research/assets/67848975/2e1f69c6-8fca-4d47-9b31-9fe59690bb37)
 
 ## BlockCHAIN!
+https://andersbrownworth.com/blockchain/blockchain
+
 Remember we have 3 elements in a block? Now, we add the 4th element, which is **Prev**.
 
 Prev refers to the hashed output of its _previous_ block in the blockchain. 
@@ -62,18 +68,20 @@ Say if you change the data in block 2, the hash in block 2 changes
   - And so on...
 
 ## Distributed Blockchain
+https://andersbrownworth.com/blockchain/distributed
 
-### Decentralization and Consensus of a blockchain. 
+### The Decentralization and Consensus of a blockchain. 
 
 In a blockchain network, there are multiple peers with the exact same copy of the blockchain. If a peer decides to change a block, all of the other peers need to agree on that change and change their blocks accordingly. This is called **Consensus**. 
 
 Also, if there is a mismatch in the blockchain among the peers, the majority wins! Therefore, no peer owns the blockchain network. Everything here is **Decentralized**
 
 ## Let's make it even more secure: Signature
+https://andersbrownworth.com/blockchain/public-private-keys/signatures
 
 Say we have a blockchain network that stores the transaction history, how can we make sure that Jane actually sent John $25? What stops Jane from faking it and telling the other peers to update their blockchain?
 
-This is where **signature** comes into place. Alex will be the one who "sign" this transaction for us. Here's how it works:
+This is where **signature** comes into place. Alex will be the one who "signs" this transaction for us. Here's how it works:
   1. Alex has a Private key (which he keeps it for himself) and Public key (which everyone gets access to)
   2. Alex hashes the transaction with his Private key and produces an output, say "xyz1"
   3. Anyone can just use Alex's Public key and input "xyz1" with Jane's transaction. This Public key will help people figure out if Alex actually signed this.
