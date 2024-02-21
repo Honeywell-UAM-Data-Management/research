@@ -4,8 +4,8 @@ This is the repo where all members will share important knowledge for the projec
 
 # Table of Content
 
-- [So...How Does Blockchain Work?](#So...How Does Blockchain Work?)
-  - [Cryptography (or usually called Hashing)](#Cryptography (or usually called Hashing))
+- [So...How Does Blockchain Work?](#so...how-does-blockchain-work?)
+  - [Cryptography (or usually called Hashing)](#cryptography-(or-usually-called-hashing))
 
 # So...How Does Blockchain Work? (Video (https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=3678s) 01:05:32 - 01:22:56) (Website https://andersbrownworth.com/blockchain/)
 ## Cryptography (or usually called Hashing)
