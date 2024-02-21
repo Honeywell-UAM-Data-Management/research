@@ -34,3 +34,7 @@ The mining algorithm will differ based on the type of blockchain system that you
 
 In the video example, the mining algorithm will bruteforce the Nonce until the hashed output starts with four 0s (0000...)
 
+![image](https://github.com/Honeywell-UAM-Data-Management/research/assets/67848975/b43c7cfa-2211-4fcf-a3da-a4048ad7fe59)
+![image](https://github.com/Honeywell-UAM-Data-Management/research/assets/67848975/2e1f69c6-8fca-4d47-9b31-9fe59690bb37)
+
+
