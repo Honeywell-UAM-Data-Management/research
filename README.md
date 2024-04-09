@@ -95,10 +95,15 @@ https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html
 
 ## Why Hyperledger Fabric
 Since the project is for enterprise use, we need to consider the following requirements:
-- Participants must be identified/identifiable
+- Participants must be identified/identifiable:
+  - the participants are known to each other rather than anonymous and, therefore, fully untrusted. This means that while the participants may not fully trust one another (they may, for example, be competitors in the same industry), a network can be operated under a governance model that is built off of what trust does exist between participants, such as a legal agreement or framework for handling disputes.
 - Networks need to be permissioned
+  - Hyperledger Fabric achieves this by utilizing **Channels**
 - High transaction throughput performance
 - Low latency of transaction confirmation
 - Privacy and confidentiality of transactions and data pertaining to business transactions
+  - In channels, participants on a Fabric network establish a sub-network where every member has visibility to a particular set of transactions. Thus, only those nodes that participate in a channel have access to the smart contract (chaincode) and data transacted, preserving the privacy and confidentiality of both. Private data allows collections between members on a channel, allowing much of the same protection as channels without the maintenance overhead of creating and maintaining a separate channel.
+
+
 
 # Keywords
