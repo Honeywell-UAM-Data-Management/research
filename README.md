@@ -11,7 +11,9 @@ Hi there! This is the repo where all members will share important knowledge they
   - [BlockCHAIN](#blockchain)
   - [Distributed Blockchain](#distributed-blockchain)
   - [Let's make it even more secure: Signature](#lets-make-it-even-more-secure-signature)
-
+- [Hyperledger Fabric](#hyperledger-fabric)
+- [Keywords](#keywords)
+  
 # What is Blockchain?
 Imagine a blockchain as a digital ledger or record book with these features:
   - **Decentralization**: This notebook isn't owned by one person or organization. Instead, it's spread out across many computers, called nodes, all around the world. Each node has its own copy of the blockchain.
@@ -88,3 +90,15 @@ This is where **signature** comes into place. Alex will be the one who "signs" t
 
 Jane cannot fake this transaction since only Alex has his Private key
 
+# Hyperledger Fabric
+https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html
+
+## Why Hyperledger Fabric
+Since the project is for enterprise use, we need to consider the following requirements:
+- Participants must be identified/identifiable
+- Networks need to be permissioned
+- High transaction throughput performance
+- Low latency of transaction confirmation
+- Privacy and confidentiality of transactions and data pertaining to business transactions
+
+# Keywords
