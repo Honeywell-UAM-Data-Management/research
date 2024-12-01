@@ -15,6 +15,7 @@ Copy both folders from github into this directory (application-javascript, chain
 ./network.sh down
 ./network.sh up createChannel -ca
 ./network.sh deployCC -ccn engine-lifecycle -ccp ../engine-lifecycle/chaincode-javascript/ -ccl javascript
+(If there is an issue with bringing up the network or deploying the chaincode, the issue is likely with the Docker version. Make sure to update your Docker Desktop to the latest version)
 
 Navigate to Fabric/fabric-samples/engine-lifecycle/application-javascript
 
