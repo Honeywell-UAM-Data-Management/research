@@ -1,3 +1,5 @@
+YouTube video tutorial: https://www.youtube.com/watch?v=vqLV9Iv0d-w
+
 1. Install Hyperledger Fabric and associated software by following the documentation:
 
 https://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html
